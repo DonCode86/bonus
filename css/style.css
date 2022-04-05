@@ -15,6 +15,13 @@ body {
     color: #fff;
 }
 
+main {
+    margin: 40px 0;
+}
+
+.photo-gallery img {
+    width: 100%;
+}
 /*------------------
     BUTTONS
 ------------------*/
@@ -153,4 +160,13 @@ hr {
     height: 1px;
     border: none;
     background-color: #ddc0c0;
+}
+
+/*------------------
+    BANNER
+------------------*/
+
+.banner {
+    display: flex;
+    justify-content: center;
 }
